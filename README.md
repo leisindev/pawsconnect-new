@@ -1,4 +1,4 @@
-# PawsConnect AI Suite (MIS 552 - Homework 1)
+# PawsConnect AI Suite (Homework 1)
 
 A Streamlit demo of five AI features for a fictional pet-adoption platform:
 
