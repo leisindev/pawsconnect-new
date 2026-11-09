@@ -1,0 +1,44 @@
+[
+  {
+    "id": "m01",
+    "text": "Hello, I'd love to apply for Biscuit the three-legged beagle! I work from home and have a ground-floor apartment. What do I need to send you?"
+  },
+  {
+    "id": "m02",
+    "text": "Is Luna OK with dogs? We have a 10-year-old lab who is super chill. Also what's the adoption fee?"
+  },
+  {
+    "id": "m03",
+    "text": "My cat Pepper, who I adopted from you in March, has been vomiting since last night and won't eat this morning. Should I be worried?"
+  },
+  {
+    "id": "m04",
+    "text": "I found a little kitten in the storm drain on Elm and Broadway, she's crying and it's starting to rain hard. I can't reach her. Please help!!!"
+  },
+  {
+    "id": "m05",
+    "text": "I'm a retired teacher and I'd be happy to foster puppies or bottle babies this winter. I have a spare room and lots of time."
+  },
+  {
+    "id": "m06",
+    "text": "Our toddler is allergic to our 3-year-old cat and the doctor says she has to go. We love her. How does surrender work, and is there a wait?"
+  },
+  {
+    "id": "m07",
+    "text": "Earn $5000/week from home!!! Reply YES to learn more. Limited spots."
+  },
+  {
+    "id": "m08",
+    "text": "Duke looks amazing. My neighbor's dog keeps getting loose and I'm worried he'll get hit by a car - anyway, do you think Duke would be OK in a house with a fenced yard?",
+    "note": "AMBIGUOUS: adoption interest + possible welfare concern about a different animal"
+  },
+  {
+    "id": "m09",
+    "text": "I adopted Max two weeks ago and honestly I don't think this is working. He growled at my son yesterday. I don't want to give him up but I don't know what else to do.",
+    "note": "AMBIGUOUS: behavior question vs. surrender request vs. safety concern"
+  },
+  {
+    "id": "m10",
+    "text": "Do you guys take donations of old towels and blankets? I have two bags."
+  }
+]

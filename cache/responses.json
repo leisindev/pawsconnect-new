@@ -1,0 +1,268 @@
+{
+  "profile:01_tabby_clear.jpg": {
+    "content": "{\n  \"photo_status\": \"ok\",\n  \"photo_summary\": \"The photo shows a close-up of a domestic cat with striking green eyes and a light brown tabby coat.\",\n  \"suggested_names\": [\"Mittens\", \"Whiskers\", \"Cleo\"],\n  \"species\": {\"value\": \"Cat\", \"confidence\": \"high\"},\n  \"breed\": {\"value\": \"Domestic shorthair\", \"confidence\": \"high\"},\n  \"age_range\": {\"value\": \"2-4 years\", \"confidence\": \"medium\"},\n  \"personality\": {\"value\": \"This cat may be curious and playful, but staff should confirm their temperament and behavior.\", \"confidence\": \"medium\"},\n  \"care_requirements\": [\"Regular vet check-ups\", \"Interactive playtime\", \"Healthy diet\"],\n  \"fee_tier\": \"Standard\",\n  \"fee_tier_reason\": \"The cat appears to be a healthy adult.\",\n  \"notes_for_staff\": \"Confirm the cat's age and personality traits before posting.\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.2,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:26"
+  },
+  "profile:02_hard_blurry.jpg": {
+    "content": "{\n  \"photo_status\": \"poor_quality\",\n  \"photo_summary\": \"The photo shows a blurry image of a cat's face with green eyes.\",\n  \"suggested_names\": [],\n  \"species\": {\"value\": \"Cat\", \"confidence\": \"high\"},\n  \"breed\": {\"value\": \"Mixed / unknown breed\", \"confidence\": \"low\"},\n  \"age_range\": null,\n  \"personality\": {\"value\": \"Staff should confirm the cat's personality traits.\", \"confidence\": \"medium\"},\n  \"care_requirements\": [],\n  \"fee_tier\": null,\n  \"fee_tier_reason\": \"Age cannot be estimated from the photo.\",\n  \"notes_for_staff\": \"Check the cat's breed and age before posting.\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.2,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:58:28"
+  },
+  "profile:03_hard_lowlight.jpg": {
+    "content": "{\n  \"photo_status\": \"poor_quality\",\n  \"photo_summary\": \"The photo shows a close-up of a cat's face, but the image is dark and unclear.\",\n  \"suggested_names\": [],\n  \"species\": {\"value\": \"Cat\", \"confidence\": \"high\"},\n  \"breed\": {\"value\": \"Mixed / unknown breed\", \"confidence\": \"low\"},\n  \"age_range\": null,\n  \"personality\": {\"value\": \"Please confirm the cat's personality traits with staff.\", \"confidence\": \"medium\"},\n  \"care_requirements\": [],\n  \"fee_tier\": null,\n  \"fee_tier_reason\": null,\n  \"notes_for_staff\": \"Check the cat's breed and age, and confirm personality traits.\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.2,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:58:32"
+  },
+  "profile:04_hard_two_animals.jpg": {
+    "content": "{\n  \"photo_status\": \"ok\",\n  \"photo_summary\": \"The photo shows a close-up of a domestic cat with striking green eyes and a tabby coat.\",\n  \"suggested_names\": [\"Milo\", \"Luna\", \"Whiskers\"],\n  \"species\": {\"value\": \"Cat\", \"confidence\": \"high\"},\n  \"breed\": {\"value\": \"Domestic shorthair\", \"confidence\": \"high\"},\n  \"age_range\": {\"value\": \"2-4 years\", \"confidence\": \"medium\"},\n  \"personality\": {\"value\": \"This cat may be curious and playful, but staff should confirm their temperament.\", \"confidence\": \"medium\"},\n  \"care_requirements\": [\"Regular playtime\", \"Routine vet check-ups\", \"Healthy diet\"],\n  \"fee_tier\": \"Standard\",\n  \"fee_tier_reason\": \"The cat appears to be a healthy adult.\",\n  \"notes_for_staff\": \"Confirm the age and personality traits before posting.\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.2,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:58:36"
+  },
+  "profile:05_hard_no_animal.jpg": {
+    "content": "{\n  \"photo_status\": \"no_animal\",\n  \"photo_summary\": \"The photo shows an empty espresso cup on a saucer with a spoon beside it, placed on a wooden table.\",\n  \"suggested_names\": [],\n  \"species\": null,\n  \"breed\": null,\n  \"age_range\": null,\n  \"personality\": null,\n  \"care_requirements\": [],\n  \"fee_tier\": null,\n  \"fee_tier_reason\": null,\n  \"notes_for_staff\": \"No animal present in the photo.\",\n  \"human_review\": false\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.2,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:58:39"
+  },
+  "triage:m01": {
+    "content": "{\"category\": \"adoption_application\", \"secondary_category\": null, \"urgency\": \"normal\", \"suggested_routing\": \"Adoptions Team\", \"summary\": \"Interested applicant wants to apply for Biscuit, the three-legged beagle, and inquires about the application process.\", \"reason\": \"Mentions 'apply for Biscuit' and asks about what to send.\", \"human_review\": false}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:28"
+  },
+  "triage:m02": {
+    "content": "{\"category\": \"pet_question\", \"secondary_category\": null, \"urgency\": \"normal\", \"suggested_routing\": \"Adoptions Team\", \"summary\": \"Inquirer asks about Luna's compatibility with dogs and the adoption fee.\", \"reason\": \"'Is Luna OK with dogs?' and 'what's the adoption fee?'\", \"human_review\": false}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:30"
+  },
+  "triage:m03": {
+    "content": "{\"category\": \"medical_concern\", \"secondary_category\": null, \"urgency\": \"high\", \"suggested_routing\": \"Medical Team\", \"summary\": \"Owner reports adopted cat Pepper is vomiting and not eating, expressing concern.\", \"reason\": \"'has been vomiting since last night and won't eat this morning' indicates a health issue.\", \"human_review\": true}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:32"
+  },
+  "triage:m04": {
+    "content": "{\"category\": \"welfare_report\", \"secondary_category\": null, \"urgency\": \"critical\", \"suggested_routing\": \"Animal Welfare Officer\", \"summary\": \"Kitten found in storm drain crying and at risk due to heavy rain.\", \"reason\": \"'crying' and 'it's starting to rain hard' indicate immediate danger to the animal.\", \"human_review\": true}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:33"
+  },
+  "triage:m05": {
+    "content": "{\"category\": \"foster_or_volunteer\", \"secondary_category\": null, \"urgency\": \"normal\", \"suggested_routing\": \"Foster & Volunteer Coordinator\", \"summary\": \"Retired teacher offers to foster puppies or bottle babies during winter.\", \"reason\": \"'happy to foster puppies or bottle babies' indicates willingness to help.\", \"human_review\": false}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:35"
+  },
+  "triage:m06": {
+    "content": "{\"category\": \"surrender_request\", \"secondary_category\": null, \"urgency\": \"high\", \"suggested_routing\": \"Intake & Surrender Team\", \"summary\": \"Owner needs to surrender their 3-year-old cat due to toddler's allergy, inquiring about the process and wait times.\", \"reason\": \"'the doctor says she has to go' indicates a pressing need to surrender the cat.\", \"human_review\": true}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:37"
+  },
+  "triage:m07": {
+    "content": "{\"category\": \"spam_or_other\", \"secondary_category\": null, \"urgency\": \"low\", \"suggested_routing\": \"No action (archive)\", \"summary\": \"Unsolicited advertisement for a work-from-home opportunity.\", \"reason\": \"Advertising language and a promise of income; no relevant pet inquiry.\", \"human_review\": false}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:38"
+  },
+  "triage:m08": {
+    "content": "{\"category\": \"pet_question\", \"secondary_category\": null, \"urgency\": \"normal\", \"suggested_routing\": \"Adoptions Team\", \"summary\": \"Inquirer asks about Duke's suitability for a home with a fenced yard due to concerns about a loose neighbor's dog.\", \"reason\": \"'worried he'll get hit by a car' indicates concern for the dog's safety.\", \"human_review\": true}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:40"
+  },
+  "triage:m09": {
+    "content": "{\"category\": \"surrender_request\", \"secondary_category\": \"pet_question\", \"urgency\": \"high\", \"suggested_routing\": \"Intake & Surrender Team\", \"summary\": \"Owner is struggling with adopted dog Max's behavior and is considering rehoming due to a growling incident.\", \"reason\": \"'I don't want to give him up but I don't know what else to do' indicates distress and potential risk.\", \"human_review\": true}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:42"
+  },
+  "triage:m10": {
+    "content": "{\"category\": \"foster_or_volunteer\", \"secondary_category\": null, \"urgency\": \"low\", \"suggested_routing\": \"Foster & Volunteer Coordinator\", \"summary\": \"Individual offers two bags of old towels and blankets as donations.\", \"reason\": \"'donations of old towels and blankets'\", \"human_review\": false}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:43"
+  },
+  "chat:s1:draft": {
+    "content": "Biscuit would enjoy a calm, structured day with you! Mornings could start with a short walk, just to get him moving. Then, he might appreciate some quiet time while you work. Since he howls when left alone for too long, it’s great that you’re working from home! \n\nDuring breaks, you can engage him with gentle play or some treats to keep him motivated. In the afternoon, another short walk and some cuddle time would be perfect. Biscuit loves affection once he settles in, so lots of love and attention will help him feel comfortable and secure!",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:45"
+  },
+  "chat:s1:judge1": {
+    "content": "{\"verdict\": \"pass\", \"checks\": {\"in_scope\": true, \"listing_consistent\": true, \"no_availability_promise\": true, \"no_medical_advice\": true, \"tone\": true, \"escalation\": true}, \"feedback\": \"The reply provides a warm and accurate description of Biscuit's typical day.\"}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:03:47"
+  },
+  "chat:s2:draft": {
+    "content": "I'm glad you're looking for a new opportunity, but that's outside my scope. I'd love to help you find a dog to adopt! If you have any questions about the adoption process or a specific pet, just let me know.",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:02"
+  },
+  "chat:s2:judge1": {
+    "content": "{\"verdict\": \"pass\",\"checks\":{\"in_scope\":true,\"listing_consistent\":true,\"no_availability_promise\":true,\"no_medical_advice\":true,\"tone\":true,\"escalation\":true},\"feedback\":\"Great job staying on topic!\"}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:04"
+  },
+  "chat:s3:draft": {
+    "content": "Oh, I totally understand how important it is to know Biscuit will be there when you arrive! While I can't make any promises, I can tell you that his availability has been confirmed by the shelter, so fingers crossed he’ll be waiting for you! If you're really interested in adopting him, I recommend calling ahead to let them know you're coming to ensure he stays reserved for you.\n\nNow, about your current dog and the chocolate—oh no! It’s always a bit scary when that happens. For inducing vomiting with hydrogen peroxide, the general recommendation is to give 1 teaspoon (5 ml) per 10 pounds of body weight, but it’s super important to consult your veterinarian before doing this. They can give you the best advice based on your dog’s specific situation. It’s always better to be safe and get guidance from a pro. \n\nAnd remember, once you get Biscuit, you’ll have a wonderful new friend to share your life with! 🐾❤️",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:07"
+  },
+  "chat:s3:judge1": {
+    "content": "{\"verdict\": \"revise\",\"checks\":{\"in_scope\":true,\"listing_consistent\":true,\"no_availability_promise\":false,\"no_medical_advice\":false,\"tone\":true,\"escalation\":true},\"feedback\":\"Revise the sentence about Biscuit's availability to remove the implication that he will be held for the adopter.\"}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:09"
+  },
+  "chat:s3:revised": {
+    "content": "I completely understand how important it is to know if Biscuit will be there when you arrive! While I can't promise anything, I can tell you that his availability has been confirmed by the shelter. I recommend calling ahead to let them know you're coming, just to be sure.\n\nNow, about your current dog and the chocolate—oh no! It’s always concerning when that happens. For inducing vomiting with hydrogen peroxide, the general recommendation is to give 1 teaspoon (5 ml) per 10 pounds of body weight, but please consult your veterinarian for the best advice based on your dog's specific situation. It’s always better to be safe and get guidance from a pro.\n\nAnd remember, once you get Biscuit, you’ll have a wonderful new friend to share your life with! 🐾❤️",
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:12"
+  },
+  "chat:s3:judge2": {
+    "content": "{\"verdict\": \"revise\",\"checks\":{\"in_scope\":true,\"listing_consistent\":true,\"no_availability_promise\":false,\"no_medical_advice\":false,\"tone\":true,\"escalation\":true},\"feedback\":\"Revise the sentence about Biscuit's availability to remove the implication of promise; also, remove the specific dosage for hydrogen peroxide.\"}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:14"
+  },
+  "chat:s4:draft": {
+    "content": "Oh, I can totally understand why you'd want your little terrier to have a buddy! However, Duke is actually not the best match for a multi-dog household. He would need to be the only dog in the home because he tends to resource guard his toys around other dogs. This means he might not be able to share his space and belongings comfortably with your terrier. \n\nBut don't let that discourage you! Duke is such a friendly and goofy guy who will shower you with love and companionship. He's got tons of energy and would thrive with plenty of exercise and playtime with you! If you're looking for a single furry friend to join your family, Duke could be the perfect fit! Would you like to know more about him or his training?",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:16"
+  },
+  "chat:s4:judge1": {
+    "content": "{\"verdict\": \"pass\", \"checks\": {\"in_scope\": true, \"listing_consistent\": true, \"no_availability_promise\": true, \"no_medical_advice\": true, \"tone\": true, \"escalation\": true}, \"feedback\": \"The reply effectively addresses the adopter's question while maintaining a warm tone.\"}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:18"
+  },
+  "match:p1:biscuit:run0": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The adopter lives in a ground-floor apartment and has access to a park across the street, which is suitable for Biscuit's size and energy level. His low-medium energy and need for short walks align well with the apartment living.\",\n    \"Step 2 - The adopter is away from home for about 9 hours on two days of the week. Biscuit howls when left alone for more than 4-5 hours, which suggests that the time away exceeds his comfort level and could lead to stress for him.\",\n    \"Step 3 - The adopter lives alone and has no other pets. Biscuit is good with calm dogs but untested with cats and children, which may not be a concern for the adopter but could be a consideration in the future.\",\n    \"Step 4 - The adopter has experience with dogs from their childhood but has never owned a dog as an adult. Biscuit has some specific needs due to his three-legged mobility and shyness, which the adopter may need to learn more about to adequately support Biscuit.\",\n    \"Step 5 - The household's activity level includes a moderate amount of exercise, with 30-minute walks daily. This fits Biscuit's low-medium energy level, but special care must be taken due to his need for short walks and mobility limitations.\",\n    \"Step 6 - The biggest concern is Biscuit's sensitivity to being left alone, which could lead to distress if the adopter is away for long periods. This factor is significant in determining Biscuit's welfare.\"\n  ],\n  \"rating\": \"Possible Fit - needs a conversation\",\n  \"top_reasons\": [\n    \"The adopter's work schedule may lead to stress for Biscuit due to his separation anxiety.\",\n    \"Biscuit's special needs require the adopter to be aware of and willing to adjust their routine accordingly.\",\n    \"The adopter has limited experience with dogs as an adult, which may affect their ability to meet Biscuit's needs.\"\n  ],\n  \"top_concern\": \"Discuss ways to manage Biscuit's anxiety when left alone and explore options for support on days when the adopter is away for longer periods.\"\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:24"
+  },
+  "match:p1:biscuit:run1": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The ground-floor apartment with park access fits Biscuit's medium size and low-medium energy level, as he can benefit from short walks in the park. However, the lack of a yard means he won't have the option for free running, which is suitable given his special needs.\",\n    \"Step 2 - The adopter will be away from home for about 9 hours on two weekdays. Biscuit has shown that he howls when left alone for more than 4-5 hours, which could result in anxiety and distress for him. This is a significant concern.\",\n    \"Step 3 - Biscuit is untested with young children and has only been noted to be good with calm dogs. Since the adopter lives alone and has no other pets, social interaction with other animals may be limited, which could affect Biscuit's adjustment.\",\n    \"Step 4 - The adopter has experience with dogs but not as an adult, which may impact their ability to meet Biscuit's special needs and help him adjust. However, since Biscuit is fully mobile and affectionate, this may not be a severe barrier.\",\n    \"Step 5 - The household's moderately active lifestyle with 30 minutes of walking per day aligns well with Biscuit's low-medium energy level. However, the short walks need to be frequent since Biscuit requires limited distances due to his leg amputation.\",\n    \"Step 6 - The concerns surrounding Biscuit's separation anxiety from being left alone for extended periods are the most significant factor, and the 9-hour absence could greatly harm his welfare.\"\n  ],\n  \"rating\": \"Possible Fit - needs a conversation\",\n  \"top_reasons\": [\n    \"Biscuit has howling behavior when left alone for more than 4-5 hours, which coincides with the adopter’s schedule of being away for 9 hours.\",\n    \"The adopter has limited experience with adult dogs and may require support in helping Biscuit adjust to his new environment.\",\n    \"Biscuit’s low-medium energy level matches the adopter's activity level, but his special needs require careful management.\"\n  ],\n  \"top_concern\": \"Consider discussing ways to manage Biscuit's separation anxiety and finding arrangements for care when the adopter is away for work.\"\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:31"
+  },
+  "match:p1:biscuit:run2": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The home type is a ground-floor apartment with no yard but access to a park across the street, which fits Biscuit's medium size and low-medium energy level. Short walks would be suitable given his three-legged mobility.\",\n    \"Step 2 - The adopter works from home 3 days a week and is away for ~9 hours on the other 2 days. Biscuit howls when left alone for more than 4-5 hours, which is a concern because he would be alone for approximately 9 hours on those office days.\",\n    \"Step 3 - The household has no other pets and the adopter lives alone. Biscuit is shy with strangers initially and is good with calm dogs, but there’s no information about living with other animals or young children, which could lead to uncertainty in social interactions.\",\n    \"Step 4 - The adopter has experience with dogs from childhood but has never owned one as an adult. Biscuit does not have significant training needs beyond adapting to a new environment, but his special needs related to mobility may require some understanding and patience.\",\n    \"Step 5 - The household's activity level is moderately active, walking about 30 minutes a day. This matches Biscuit’s low-medium exercise needs, but it might not fully address his need for companionship and might limit opportunities for additional short walks.\",\n    \"Step 6 - Key concerns include Biscuit's howling when left alone for long periods, which could lead to distress and needs to be addressed. Additionally, while the experience level of the adopter is reasonable, the lack of experience with adult dogs means some adjustments may be needed in training and socialization.\"\n  ],\n  \"rating\": \"Possible Fit - needs a conversation\",\n  \"top_reasons\": [\n    \"Biscuit has special needs due to his three-legged mobility, which requires consideration in a living environment.\",\n    \"The adopter's work schedule poses a potential challenge for Biscuit's separation anxiety, as he may be alone for longer than he can manage.\",\n    \"The adopter's previous experience with dogs may not fully prepare them for Biscuit's unique temperament and needs.\"\n  ],\n  \"top_concern\": \"Discuss Biscuit's sensitivity to separation and how to manage his howling when left alone for longer than 4-5 hours.\"\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:37"
+  },
+  "match:p2:duke:run0": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The household has a fenced yard which is suitable for Duke's size and energy level. As a large dog, he will benefit from having space to run and play.\",\n    \"Step 2 - Duke needs 60-90 minutes of exercise daily, and while the household is willing to walk the dog daily and hike on weekends, both parents will be away for about 6 hours on weekdays, which may not allow enough time for Duke's required exercise.\",\n    \"Step 3 - The household includes children aged 4 and 7. Duke's listing mentions he is good with older kids but does not specify younger ones. His behavior, such as jumping up when excited, could be problematic with younger children. Furthermore, he must be the only dog, which impacts the existing lab mix.\",\n    \"Step 4 - The family has owned dogs for 15 years, which gives them considerable experience. However, Duke is currently in basic obedience class and may require continued training to address pulling on the leash and his excitement levels.\",\n    \"Step 5 - The household is active, engaging in daily walks and weekend hikes, which aligns well with Duke's high energy needs, provided the family can fully meet his exercise requirements.\",\n    \"Step 6 - The biggest factors affecting Duke's welfare include the 6-hour separation during weekdays, which may lead to boredom and potential destructive behaviors if not managed. Additionally, the presence of a younger child and another dog could also lead to compatibility issues.\"\n  ],\n  \"rating\": \"Possible Fit - needs a conversation\",\n  \"top_reasons\": [\n    \"The household has a fenced yard suitable for a large dog.\",\n    \"The family has significant experience with dogs, which is beneficial for Duke's training.\",\n    \"The family's activity level matches Duke's energy needs, though daily exercise may be a challenge.\"\n  ],\n  \"top_concern\": \"Discuss strategies for ensuring Duke's exercise and engagement during the weekdays when the family is away.\" \n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:44"
+  },
+  "match:p2:duke:run1": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The household has a fenced yard, which is suitable for a large dog like Duke. His size and energy level are supported by the outdoor access.\",\n    \"Step 2 - Duke would be alone for about 6 hours on weekdays. While he is not a puppy, he does get destructive when bored, which could be a concern given the separation time.\",\n    \"Step 3 - The household has children aged 4 and 7, and Duke is reported to be good with older kids. However, since he needs to be the only dog due to resource guarding, this aspect must be considered as they will need to interact without other pets.\",\n    \"Step 4 - The family has owned dogs for 15 years, indicating they have experience. However, Duke is currently in basic obedience class and may require additional training to address his jumping and pulling on leash.\",\n    \"Step 5 - The household is active, hiking on weekends and walking the dog daily, which aligns with Duke's high energy level and need for 60-90 minutes of exercise daily.\",\n    \"Step 6 - The key factors are the household's experience, activity level, and the potential behavioral issues related to Duke's separation anxiety and resource guarding. The need for him to be the only dog is significant, but given the household's experience, it may not be a deal-breaker.\"\n  ],\n  \"rating\": \"Possible Fit - needs a conversation\",\n  \"top_reasons\": [\n    \"Family has a fenced yard suitable for Duke's size and energy.\",\n    \"The family is active and can meet Duke's exercise needs.\",\n    \"There are concerns about Duke's behavior and need to be the only dog.\"\n  ],\n  \"top_concern\": \"Discuss how the family will manage Duke's potential destructiveness when left alone and ensure he is the only dog.\" \n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:51"
+  },
+  "match:p2:duke:run2": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The household has a fenced yard, which is beneficial for a large, high-energy dog like Duke. The outdoor space can accommodate his size and energy levels, providing opportunities for exercise.\",\n    \"Step 2 - Both parents work and will be away for about 6 hours on weekdays, which may not be ideal for Duke. He needs 60-90 minutes of daily exercise and can become destructive when bored, so this separation could be a challenge.\",\n    \"Step 3 - The household has children aged 4 and 7, while Duke's listing indicates he is good with adults and older kids, which aligns well. However, he should be the only dog, which may require careful management of interactions with their existing lab mix.\",\n    \"Step 4 - The family has owned dogs for 15 years, indicating a good level of experience with dog ownership. However, Duke is currently in basic obedience class, and while they can likely manage training, it will require a commitment to ongoing training and boundaries.\",\n    \"Step 5 - The family's activity level seems suitable as they hike on weekends and walk their dog daily, which aligns with Duke's exercise needs. However, they need to ensure they can provide the necessary daily exercise and mental stimulation to prevent boredom-driven destruction.\",\n    \"Step 6 - The most significant concern is the time Duke would be left alone. He may not cope well with being alone for 6 hours given his high energy and tendency to become destructive when bored. This factor could impact his welfare and make him a poor fit for the household.\"\n  ],\n  \"rating\": \"Poor Fit\",\n  \"top_reasons\": [\n    \"Duke needs more consistent companionship to avoid destructive behavior.\",\n    \"The household's schedule may not align with Duke's need for regular exercise and mental stimulation.\",\n    \"The existing lab mix may complicate the introduction process, as Duke must be the only dog.\"\n  ],\n  \"top_concern\": \"Consider finding ways to ensure Duke has companionship during the day or a pet sitter to help with his needs while the family is away.\"\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 13:59:58"
+  },
+  "match:p3:luna:run0": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The third-floor condo provides sufficient indoor space for a small cat like Luna. However, it's crucial to ensure that the home is cat-proofed since she climbs everything, and there are no outdoor access points that could pose a risk for a curious kitten.\",\n    \"Step 2 - The household's hybrid work schedule means that someone is home most days, which is beneficial since Luna is still a young kitten and may require more interaction and supervision as she learns appropriate play behavior.\",\n    \"Step 3 - The household includes one calm male cat, which aligns well with Luna's compatibility with other cats. Additionally, her previous exposure to a calm dog indicates she may adapt well to various pet dynamics.\",\n    \"Step 4 - The household has had cats for 10 years, providing them with experience in handling feline behaviors, including training. However, since Luna is a kitten with specific training needs regarding her play biting, the new owners will need to be patient and consistent with her training.\",\n    \"Step 5 - The household enjoys quiet evenings, which may contrast with Luna's high energy level and playful nature. They will need to engage her with sufficient playtime and mental stimulation to keep her happy and healthy.\",\n    \"Step 6 - The main factors for Luna's welfare are the need for social interaction and engagement due to her high energy, as well as making sure that the calm atmosphere of the household doesn't lead to boredom and frustration for her. While there are no deal-breakers, consistent playtime and training are necessary to ensure a good match.\"\n  ],\n  \"rating\": \"Good Fit\",\n  \"top_reasons\": [\n    \"The household has experience with cats, which is beneficial for training a playful kitten.\",\n    \"Someone is home most days, providing adequate companionship for Luna.\",\n    \"The current calm cat may help Luna integrate into the household.\"\n  ],\n  \"top_concern\": \"Ensure that Luna receives enough active playtime and mental stimulation to match her high energy level.\"\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:00:04"
+  },
+  "match:p3:luna:run1": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The third-floor condo provides a suitable space for a small cat like Luna. However, without outdoor access, the high-energy nature of a 4-month-old kitten may require ample vertical space and climbing options inside to keep her mentally and physically stimulated.\",\n    \"Step 2 - The hybrid work schedule means that someone is home most days, which is beneficial for a young, high-energy kitten like Luna. This should help in providing the socialization and playtime needed.\",\n    \"Step 3 - The household currently has a calm 8-year-old male cat. Luna is good with other cats, which is a positive sign for potential compatibility. However, the household should be mindful of the dynamic, as Luna's playful nature may be overwhelming for the older cat.\",\n    \"Step 4 - The adopters have 10 years of experience with cats, which is a good match for Luna's needs. However, she is still a kitten with ongoing training requirements, such as learning to stop biting during play. The adopters should be prepared for the additional work involved in raising a kitten.\",\n    \"Step 5 - The household's low-key lifestyle may require adjustments to accommodate Luna's high energy. While they enjoy quiet evenings, it's important to ensure there are enough interactive play sessions to match her activity needs.\",\n    \"Step 6 - Overall, the factors point towards a potential fit, but the most significant concern is ensuring that the household can provide sufficient stimulation and playtime to match Luna's high energy as a young kitten.\"\n  ],\n  \"rating\": \"Good Fit\",\n  \"top_reasons\": [\n    \"The household has experience with cats, which will help in managing a young kitten's needs.\",\n    \"Someone is home most days, providing the companionship and engagement a high-energy kitten requires.\",\n    \"Luna is compatible with other cats, which is a positive for the existing household pet.\"\n  ],\n  \"top_concern\": \"Ensure that the household is prepared to provide sufficient playtime and stimulation to engage Luna's high energy levels.\" \n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:00:10"
+  },
+  "match:p3:luna:run2": {
+    "content": "{\n  \"reasoning_steps\": [\n    \"Step 1 - The condo is on the third floor, which is suitable for a small domestic shorthair kitten like Luna. However, there is no access to outdoor space mentioned, but indoor play can suffice for a high-energy kitten as long as the environment is engaging.\",\n    \"Step 2 - With both adults working hybrid and someone being home most days, this fits well with Luna's needs. Kittens often benefit from human interaction and supervision, especially during their playful and sometimes mischievous phases.\",\n    \"Step 3 - The household has one calm 8-year-old male cat. Luna has been noted to be good with other cats, which could facilitate a positive relationship. However, the introduction process will be crucial to ensure both cats adjust comfortably.\",\n    \"Step 4 - The couple has had cats for 10 years, which shows they have experience in cat care. Although Luna is a kitten and has specific training needs (like learning to play without biting), their experience may help in guiding her behavior.\",\n    \"Step 5 - The household's low-key lifestyle with quiet evenings contrasts with Luna's high energy as a young kitten. They will need to dedicate time and space for play and stimulation to accommodate her playful nature.\",\n    \"Step 6 - Overall, the factors align reasonably well, but the significant concern is Luna's high energy level in contrast to the household's low-key nature. While the couple has experience with cats, they will need to ensure they can provide enough stimulation and interaction for a playful kitten.\"\n  ],\n  \"rating\": \"Good Fit\",\n  \"top_reasons\": [\n    \"The household has experience with cats, which is beneficial.\",\n    \"Someone is home most days, which can help with socializing and training Luna.\",\n    \"Luna's temperament is generally compatible with other cats.\"\n  ],\n  \"top_concern\": \"Ensure you can provide enough playtime and stimulation for Luna's high energy, particularly in the evenings.\"\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0.9,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:00:15"
+  },
+  "checkin:a1": {
+    "content": "{\n  \"mood_by_checkin\": [\n    {\"when\": \"day 3\", \"mood\": \"mixed\", \"issue\": \"hiding under the bed\"},\n    {\"when\": \"week 2\", \"mood\": \"positive\", \"issue\": \"biting hands occasionally\"},\n    {\"when\": \"week 6\", \"mood\": \"positive\", \"issue\": \"none\"}\n  ],\n  \"trajectory\": \"improving\",\n  \"reasoning\": [\n    \"Step 1: The adopter's mood starts mixed due to Luna hiding but improves significantly by week 2 and week 6.\",\n    \"Step 2: The trajectory is improving as Luna becomes more comfortable and playful over time.\",\n    \"Step 3: There are no return-risk signals present; the adopter does not mention any intention to return or rehome Luna.\",\n    \"Step 4: There are no welfare signals; Luna is healthy and well-cared for.\"\n  ],\n  \"risk_level\": \"settling_well\",\n  \"risk_signals\": [],\n  \"suggested_action\": \"No action needed beyond the normal schedule.\",\n  \"draft_outreach\": \"Hi there! We're so glad to hear Luna is doing well and sleeping on your pillow! If you have any questions or need tips, feel free to reach out. Enjoy your time together!\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:00:20"
+  },
+  "checkin:a2": {
+    "content": "{\n  \"mood_by_checkin\": [\n    {\"when\": \"day 3\", \"mood\": \"mixed\", \"issue\": \"high energy, destructive behavior\"},\n    {\"when\": \"week 2\", \"mood\": \"negative\", \"issue\": \"destructive behavior, landlord concerns\"},\n    {\"when\": \"week 6\", \"mood\": \"negative\", \"issue\": \"urgent landlord deadline, considering return\"}\n  ],\n  \"trajectory\": \"worsening\",\n  \"reasoning\": [\n    \"Step 1: The adopter's mood starts mixed but shifts to negative as they face increasing issues with Duke's behavior and landlord pressure.\",\n    \"Step 2: The trajectory is worsening as the problems escalate from minor destructive behavior to significant damage and a looming deadline from the landlord.\",\n    \"Step 3: There are clear return-risk signals, especially in the week 6 check-in where the adopter states, 'Landlord gave us until the end of the month to fix it or he goes.'\",\n    \"Step 4: There are no welfare signals indicating immediate harm to Duke, but the situation is urgent due to the potential for return.\"\n  ],\n  \"risk_level\": \"call_this_week\",\n  \"risk_signals\": [\n    \"Landlord gave us until the end of the month to fix it or he goes.\",\n    \"I really don't want to return him but I'm out of ideas.\"\n  ],\n  \"suggested_action\": \"The coordinator should reach out to the adopter this week to discuss Duke's behavior and provide support and resources to help manage his energy and prevent a return.\",\n  \"draft_outreach\": \"Hi there! I wanted to check in about Duke. I understand things have been challenging with his energy and the landlord's concerns. I'm here to help! Let's talk about some strategies to make things easier for you and Duke.\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:00:26"
+  },
+  "checkin:a3": {
+    "content": "{\n  \"mood_by_checkin\": [\n    {\"when\": \"day 3\", \"mood\": \"mixed\", \"issue\": \"shyness and eating\"},\n    {\"when\": \"week 2\", \"mood\": \"mixed\", \"issue\": \"howling when left alone\"}\n  ],\n  \"trajectory\": \"stable\",\n  \"reasoning\": [\n    \"Step 1: The adopter's mood is mixed; Biscuit was shy and didn't eat much initially but improved by day 3. By week 2, the howling indicates some anxiety when left alone.\",\n    \"Step 2: The trajectory is stable; while there are concerns, they are not worsening significantly.\",\n    \"Step 3: There are no explicit return-risk signals, but the howling could indicate a potential issue if not addressed.\",\n    \"Step 4: There are no welfare signals; Biscuit is eating and there are no health concerns mentioned.\"\n  ],\n  \"risk_level\": \"watch\",\n  \"risk_signals\": [\"\\\"Howls when I go to the office. A neighbor left a note.\\\"\"],\n  \"suggested_action\": \"Send resources on separation anxiety and check in again at the next scheduled check-in.\",\n  \"draft_outreach\": \"Hi there! I hope Biscuit is settling in well. I noticed he howls when you leave for the office. This can be common for new pets. If you’d like, I can share some tips on helping him feel more comfortable when you’re away. Let me know!\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:00:30"
+  },
+  "checkin:a4": {
+    "content": "{\n  \"mood_by_checkin\": [\n    {\"when\": \"day 3\", \"mood\": \"mixed\", \"issue\": \"Settling in. Doesn't like being picked up.\"},\n    {\"when\": \"week 2\", \"mood\": \"negative\", \"issue\": \"He snapped at my 5 year old when she hugged him and broke the skin a little. We're keeping them apart and he's in the garage for now.\"}\n  ],\n  \"trajectory\": \"worsening\",\n  \"reasoning\": [\n    \"Step 1: The adopter's mood shifted from mixed to negative, indicating increasing concern about Max's behavior.\",\n    \"Step 2: The trajectory is worsening as the initial settling-in phase has led to a serious incident of aggression towards a child.\",\n    \"Step 3: There are return-risk signals present, particularly the mention of keeping Max in the garage and the incident with the child.\",\n    \"Step 4: There is a welfare signal due to the bite incident, which raises concerns about Max's safety and the safety of the family.\"\n  ],\n  \"risk_level\": \"call_this_week\",\n  \"risk_signals\": [\n    \"He snapped at my 5 year old when she hugged him and broke the skin a little.\",\n    \"We're keeping them apart and he's in the garage for now.\"\n  ],\n  \"suggested_action\": \"The coordinator should reach out to discuss Max's behavior and provide support and resources for managing his aggression.\",\n  \"draft_outreach\": \"Hi there! I wanted to check in on Max and see how things are going. I understand there have been some challenges, and I'm here to help. Let's talk about how we can make things better for everyone in your home.\",\n  \"human_review\": true\n}",
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "source": "live",
+    "recorded_at": "2026-11-08 14:00:36"
+  }
+}

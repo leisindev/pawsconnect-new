@@ -1,0 +1,47 @@
+[
+  {
+    "id": "biscuit",
+    "name": "Biscuit",
+    "species": "Dog",
+    "breed": "Beagle mix",
+    "age": "5 years",
+    "sex": "Male, neutered",
+    "size": "Medium (24 lb)",
+    "special_needs": "Three legs (rear left amputated 2024); fully mobile, short walks only, no stairs-heavy homes ideally",
+    "temperament": "Shy with strangers for the first day or two, then very affectionate. Food-motivated. Howls when left alone more than 4-5 hours.",
+    "good_with": "Calm dogs; untested with cats; fine with teens, untested with young children",
+    "energy": "Low-medium",
+    "fee_tier": "Sponsored",
+    "status_note": "Availability confirmed by shelter only"
+  },
+  {
+    "id": "luna",
+    "name": "Luna",
+    "species": "Cat",
+    "breed": "Domestic shorthair",
+    "age": "4 months",
+    "sex": "Female, spayed",
+    "size": "Small",
+    "special_needs": "None; needs kitten vaccine booster in 3 weeks",
+    "temperament": "Playful, curious, climbs everything, loves wand toys. Bites hands during play (being trained out).",
+    "good_with": "Other cats; dog-tested with one calm dog",
+    "energy": "High",
+    "fee_tier": "Young",
+    "status_note": "Availability confirmed by shelter only"
+  },
+  {
+    "id": "duke",
+    "name": "Duke",
+    "species": "Dog",
+    "breed": "Mixed breed (shepherd type)",
+    "age": "2 years",
+    "sex": "Male, neutered",
+    "size": "Large (68 lb)",
+    "special_needs": "Needs 60-90 min of exercise daily; pulls on leash; in basic obedience class",
+    "temperament": "Friendly, goofy, very smart, gets destructive when bored. Jumps up on people when excited.",
+    "good_with": "Adults and older kids; must be only dog (resource guards toys around other dogs)",
+    "energy": "High",
+    "fee_tier": "Standard",
+    "status_note": "Availability confirmed by shelter only"
+  }
+]

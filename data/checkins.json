@@ -1,0 +1,70 @@
+[
+  {
+    "id": "a1",
+    "adopter": "Patel household",
+    "pet": "Luna, 4-month-old kitten",
+    "checkins": [
+      {
+        "when": "day 3",
+        "text": "She's hiding under the bed a lot but came out tonight to play with the wand toy!"
+      },
+      {
+        "when": "week 2",
+        "text": "Totally running the house now. Still bites our hands sometimes but we're using toys like you said."
+      },
+      {
+        "when": "week 6",
+        "text": "Booster shot done. She sleeps on my pillow. 10/10."
+      }
+    ]
+  },
+  {
+    "id": "a2",
+    "adopter": "Morgan household",
+    "pet": "Duke, 2-year-old shepherd mix",
+    "checkins": [
+      {
+        "when": "day 3",
+        "text": "He's sweet but SO much energy. Chewed a couch cushion."
+      },
+      {
+        "when": "week 2",
+        "text": "Chewed the baseboards and a shoe. We walk him 30 min a day, I don't have time for more. Landlord saw the damage."
+      },
+      {
+        "when": "week 6",
+        "text": "Landlord gave us until the end of the month to fix it or he goes. I really don't want to return him but I'm out of ideas."
+      }
+    ]
+  },
+  {
+    "id": "a3",
+    "adopter": "Lee household",
+    "pet": "Biscuit, 5-year-old tripod beagle mix",
+    "checkins": [
+      {
+        "when": "day 3",
+        "text": "Very shy, didn't eat much the first day, ate fine today."
+      },
+      {
+        "when": "week 2",
+        "text": "Howls when I go to the office. A neighbor left a note. Otherwise he's a gem."
+      }
+    ]
+  },
+  {
+    "id": "a4",
+    "adopter": "Garcia household",
+    "pet": "Max, 9-year-old terrier mix",
+    "checkins": [
+      {
+        "when": "day 3",
+        "text": "Settling in. Doesn't like being picked up."
+      },
+      {
+        "when": "week 2",
+        "text": "He snapped at my 5 year old when she hugged him and broke the skin a little. We're keeping them apart and he's in the garage for now."
+      }
+    ]
+  }
+]

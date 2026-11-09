@@ -1,0 +1,20 @@
+[
+  {
+    "id": "p1",
+    "name": "Rivera household",
+    "pet_id": "biscuit",
+    "text": "Ground-floor apartment, no yard but a park across the street. I work from home 3 days, office 2 days (away ~9 hours those days). Live alone, no other pets. Had a dog growing up but never as an adult. Moderately active - I walk about 30 minutes a day."
+  },
+  {
+    "id": "p2",
+    "name": "Okafor family",
+    "pet_id": "duke",
+    "text": "House with a fenced yard. Two parents and kids aged 4 and 7. We already have a 6-year-old female lab mix. Both parents work; dog would be alone about 6 hours on weekdays. We've owned dogs for 15 years. We hike on weekends and walk the dog daily."
+  },
+  {
+    "id": "p3",
+    "name": "Chen couple",
+    "pet_id": "luna",
+    "text": "Third-floor condo, two adults, one 8-year-old calm male cat. We both work hybrid so someone is home most days. First kitten for us, but we've had cats for 10 years. Low-key household, we like quiet evenings."
+  }
+]
